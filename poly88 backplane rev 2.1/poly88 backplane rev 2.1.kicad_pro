@@ -55,14 +55,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|18300001|33755790|0e44c4c0-0876-48d5-a1e3-3cc5fcf83b2c|34d01bfd-0003-4054-965d-b49d48299233",
+        "courtyards_overlap|18970001|11480001|52c62e9d-b477-4f3e-986c-21f32191a6b6|f47dd593-907c-485d-b366-28cf12878df3",
+        "courtyards_overlap|18970001|4630001|52c62e9d-b477-4f3e-986c-21f32191a6b6|6870dbd2-ca74-4501-96ea-b45fbf8abbe5",
+        "courtyards_overlap|19070001|440001|52c62e9d-b477-4f3e-986c-21f32191a6b6|ddefdcd2-8d22-4b74-84a5-9679ef5b8073",
+        "courtyards_overlap|19144820|36340001|34d01bfd-0003-4054-965d-b49d48299233|6813e20d-7cf3-4e6b-92a9-fcba0f7b3c83",
+        "courtyards_overlap|19719999|29960001|0e44c4c0-0876-48d5-a1e3-3cc5fcf83b2c|52c62e9d-b477-4f3e-986c-21f32191a6b6",
+        "courtyards_overlap|354885001|2100001|451b6726-0eb7-4104-8c03-3fb814e4b200|79e7bf32-231e-498f-ad11-449543a6a91e",
+        "courtyards_overlap|37109999|50460001|291a2845-5767-4e90-ad58-2fb19a755b20|f2dcb948-3c1c-4c2c-89ef-fe7c047a5738",
+        "courtyards_overlap|56549999|50460001|48b1b8a0-3d1b-40a0-a28d-065c4f6363e7|f2dcb948-3c1c-4c2c-89ef-fe7c047a5738",
+        "courtyards_overlap|79059999|50460001|82d764ad-cd5d-4959-87f6-9a5cb3ad13a1|f2dcb948-3c1c-4c2c-89ef-fe7c047a5738",
+        "courtyards_overlap|81929999|69760001|a89d8c81-e6ff-4e1d-a820-837fcf998fbe|f2dcb948-3c1c-4c2c-89ef-fe7c047a5738",
+        "items_not_allowed|55505000|18815000|3c626045-40f3-4ce9-a4c0-8f4dc372eb13|00000000-0000-0000-0000-000000000000",
+        "via_dangling|292227000|16637000|5f3b80aa-03d6-4df4-9b19-01cf7200a142|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
         "clearance": "error",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "ignore",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -85,8 +99,8 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -351,7 +365,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "poly88 backplane rev e.kicad_pro",
+    "filename": "poly88 backplane rev 2.1.kicad_pro",
     "version": 1
   },
   "net_settings": {
